@@ -920,6 +920,11 @@ a {
 .cid-uWz015nNSZ .navbar.collapsed.opened .dropdown-menu {
   top: 0;
 }
+@media (min-width: 992px) {
+  .cid-uWz015nNSZ .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3rem);
+  }
+}
 .cid-uWz015nNSZ .navbar.collapsed .dropdown-menu .dropdown-submenu {
   left: 0 !important;
 }
